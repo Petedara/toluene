@@ -1,0 +1,45 @@
+.news-on-home{
+    margin: 35px 0 0 0;
+}
+
+.news-category{
+    display: inline;
+}
+
+.news-category div{
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.line{
+    width: 70%;
+    height: 1px;
+    background-color: aquamarine;
+}
+
+.photo-headline-category{
+    display: flex;
+    overflow-x: scroll;
+    margin-left: 35px;
+}
+
+.photo-headline-category::-webkit-scrollbar {
+    display: none;
+}
+
+.photo-headline{
+    border-right: 1px solid rgba(0, 0, 0, .5);
+    margin: 15px 4px;
+    padding: 0 8px 0 0;
+    justify-content: center;
+
+}
+
+.photo-headline img{
+    width: 301px;
+    height: 170px;
+}
+
+.photo-headline p{
+    width: 301px;
+}

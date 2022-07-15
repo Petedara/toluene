@@ -1,0 +1,22 @@
+.head{
+    width: 100%;
+    position: relative;
+}
+
+.head-tabs{
+    display: flex;
+    padding: 20px 20px 10px 20px;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, .5);
+    margin-bottom: 10px;
+}
+
+.head-link{
+    margin-right: 10px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: red;
+}
+

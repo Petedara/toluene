@@ -1,0 +1,89 @@
+.trending{
+    display: grid;
+    grid-template-columns: .4fr .2fr .2fr ;
+    grid-template-rows: .15fr .1fr;
+    grid-template-areas: 
+    "trending-update1 trending-update2 trending-update2"
+    "trending-update1 trending-update3 trending-update4";
+    justify-content: center;
+}
+
+.trending-update1{
+    grid-area: trending-update1;
+    max-width: 100%;
+    height: 450px;
+    margin-right: 4px;
+}
+
+.trending-update2{
+    grid-area: trending-update2;
+    max-width: 100%;
+    height: 254px;
+    margin-bottom: 4px;
+}
+
+.trending-update3{
+    grid-area: trending-update3;
+    max-width: 100%;
+    height: 192px;
+    margin-right: 2px;
+}
+
+.trending-update4{
+    grid-area: trending-update4;
+    max-width: 100%;
+    height: 192px;
+    margin-left: 2px;
+}
+
+.trending-update{
+    position: relative;
+    overflow: hidden;
+}
+
+.trending-tags{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding-left: 10px;
+}
+
+.trending-tags p{
+    width: 100%;
+    height: fit-content;
+}
+
+.trending-update1 p, .trending-update2 p{
+    font-size: 19px;
+}
+
+.trending-update3 p, .trending-update4 p{
+    font-size: 15px;
+}
+
+.trending-update:hover a{
+    background-color: olive;
+}
+
+.trending-update img{
+    -moz-transition:all .8s;-webkit-transition:all .8s;transition:all .8s
+}
+
+.trending-update:hover img{
+    max-width:100%;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);  
+}
+
+.btn-danger{
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    padding: 0 4px;
+}
+
+.trending-now button{
+    background-color: rgba(0, 0, 0, .5);
+    border: none;
+    font-size: 19px;
+}
